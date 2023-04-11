@@ -74,20 +74,20 @@
         },
         {
             "id": "5",
-            "company_logo": "../src/assets/companyLogo/amazon.png",
+            "company_logo": "../src/assets/companyLogo/airbnb.png",
             "job_title": "Senior Software Development Engineer",
-            "company_name": "Amazon",
+            "company_name": "AirBnb LLC",
             "remote_or_onsite": "Onsite",
             "location": "Seattle, WA",
             "fulltime_or_parttime": "Fulltime",
             "salary": "$150k - $200k",
-            "job_description": "As a Senior Software Development Engineer at Amazon, you will be responsible for designing and developing software solutions that impact millions of customers.",
+            "job_description": "As a Senior Software Development Engineer at AirBnb, you will be responsible for designing and developing software solutions that impact millions of customers.",
             "job_responsibility": "- Design, develop, and test software\n- Collaborate with cross-functional teams to deliver high-quality software products\n- Mentor junior engineers\n- Drive technical decisions and contribute to the overall technology strategy",
             "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
             "experiences": "8+ years of experience in software development",
             "contact_information": {
                 "phone": "+1 (206) 266-1000",
-                "email": "recruiting@amazon.com"
+                "email": "recruiting@airbnb.com"
             }
         },
         {

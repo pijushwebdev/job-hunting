@@ -1,3 +1,15 @@
 .single-job p{
     color: rgba(117, 117, 117, 1);
 }
+
+.view-details{
+    background: linear-gradient(to right,#7E90FE 0%,#9873FF  100%);
+    padding: 10px 18px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 15px;
+}

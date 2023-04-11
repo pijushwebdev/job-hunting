@@ -23,6 +23,8 @@ const SingleJob = ({ job }) => {
             </svg>
             </span> <span>Salary: {salary}</span></p>
 
+            <button className='view-details'>View Details</button>
+
         </div>
     );
 };
