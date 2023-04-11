@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Manrope&family=Poppins:wght@500&family=Roboto&family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.start-applying{
+    background: linear-gradient(to right,#7E90FE 0%,#9873FF  100%);
+    padding: 19px 28px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
