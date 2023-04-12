@@ -52,6 +52,9 @@ const AppliedJobs = () => {
                     onChange={(e) => {
                         if (e.target.value === 'Remote') {
                             handleRemote('Remote');
+                        }
+                        else if(e.target.value === 'Onsite'){
+                            handleRemote('Onsite');
                         } else {
                             handleAll();
                         }
@@ -59,6 +62,7 @@ const AppliedJobs = () => {
                 >
                     <option value="all">All</option>
                     <option value="Remote">Remote</option>
+                    <option value="Onsite">Onsite</option>
                 </select>
             </div>
 
