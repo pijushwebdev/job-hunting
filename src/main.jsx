@@ -13,7 +13,8 @@ import DetailsJob from './components/DetailsJob/DetailsJob';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Statistics from './components/Statistics/Statistics';
 import Blogs from './components/Blogs/Blogs';
-import ErrorPage from './components/ErrorPage';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+
 
 const router = createBrowserRouter([
   {
