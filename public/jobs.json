@@ -2,7 +2,7 @@
     "jobs": [
         {
             "id": "job1",
-            "company_logo": "../src/assets/companyLogo/Google.png",
+            "company_logo": "/Google.png",
             "job_title": "Technical Database Engineer",
             "company_name": "Google LLC",
             "remote_or_onsite": "Onsite",
@@ -20,7 +20,7 @@
         },
         {
             "id": "job2",
-            "company_logo": "../src/assets/companyLogo/netflix.png",
+            "company_logo": "/netflix.png",
             "job_title": "Senior Product Designer",
             "company_name": "Netflix",
             "remote_or_onsite": "Remote",
@@ -38,7 +38,7 @@
         },
         {
             "id": "job3",
-            "company_logo": "../src/assets/companyLogo/tesla.png",
+            "company_logo": "/tesla.png",
             "job_title": "Software Engineer",
             "company_name": "Tesla",
             "remote_or_onsite": "Onsite",
@@ -56,7 +56,7 @@
         },
         {
             "id": "job4",
-            "company_logo": "../src/assets/companyLogo/Google.png",
+            "company_logo": "/Google.png",
             "job_title": "Technical Database Engineer",
             "company_name": "Google LLC",
             "remote_or_onsite": "Onsite",
@@ -74,7 +74,7 @@
         },
         {
             "id": "job5",
-            "company_logo": "../src/assets/companyLogo/airbnb.png",
+            "company_logo": "/airbnb.png",
             "job_title": "Senior Software Development Engineer",
             "company_name": "AirBnb LLC",
             "remote_or_onsite": "Onsite",
@@ -92,7 +92,7 @@
         },
         {
             "id": "job6",
-            "company_logo": "../src/assets/companyLogo/facebook.png",
+            "company_logo": "/facebook.png",
             "job_title": "Product Manager",
             "company_name": "Facebook",
             "remote_or_onsite": "Onsite",
