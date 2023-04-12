@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './FeaturesJobs.css';
 import SingleJob from '../SingleJob/SingleJob';
+import { addToDb, getShoppingCart } from '../../utilities/fakeDb';
+import DetailsJob from '../DetailsJob/DetailsJob';
+import AppliedJobs from '../AppliedJobs/AppliedJobs';
 
 const FeaturesJobs = () => {
     const [jobs, setJobs] = useState([]);
@@ -19,6 +22,7 @@ const FeaturesJobs = () => {
     const handleShowMore = () => {
         setShowMore(true);
     }
+
 
     return (
         <div className='mb-5'>
@@ -41,6 +45,7 @@ const FeaturesJobs = () => {
                     }
                 </div>
             )}
+
         </div>
     );
 };

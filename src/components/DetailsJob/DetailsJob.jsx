@@ -4,6 +4,7 @@ import DetailsJobBanner from '../DetailsJobBanner/DetailsJobBanner';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays, faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { addToDb } from '../../utilities/fakeDb';
 
 
 const DetailsJob = () => {
@@ -12,7 +13,6 @@ const DetailsJob = () => {
     // console.log(id);
     const jobsObj = useLoaderData();
     const jobs = jobsObj.jobs;
-
 
     const [jobDetails, setJobDetails] = useState([]);
 
@@ -26,13 +26,15 @@ const DetailsJob = () => {
     if (!jobDetails) {
         return <div>Loading...</div>
     }
-
+    const handleApplyJob = (id) => {
+        addToDb(id);  
+    }
 
     return (
         <div>
             <DetailsJobBanner></DetailsJobBanner>
 
-            <div className='grid lg:grid-cols-12 grid-cols-1'>
+            <div className='grid lg:grid-cols-12 grid-cols-1 gap-2 mb-10'>
                 <div className='col-span-8 mr-2'>
                     <h2><span className='block font-bold text-xl'>Job Description:</span> <span className='text-slate-400'>{jobDetails.job_description}</span></h2>
 
@@ -64,8 +66,7 @@ const DetailsJob = () => {
 
                     <h2><span className='mr-2'><FontAwesomeIcon icon={faLocationDot} style={{color: "#808185",}} /></span><span className='font-bold'>Address:</span> <span className='text-slate-400'>{jobDetails.location}</span></h2>
                 
-                    <button className='applyNow'>Apply Now</button>
-
+                    <button onClick={()=> handleApplyJob(id)} className='applyNow'>Apply Now</button>
 
                 </div>
             </div>

@@ -10,6 +10,10 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import DetailsJob from './components/DetailsJob/DetailsJob';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
+import Statistics from './components/Statistics/Statistics';
+import Blogs from './components/Blogs/Blogs';
+import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +29,23 @@ const router = createBrowserRouter([
         path:'details/:id',
         element:<DetailsJob></DetailsJob>,
         loader: () => fetch(`/jobs.json`)
+      },
+      {
+        path:'applied-jobs',
+        element:<AppliedJobs></AppliedJobs>,
+        loader:() => fetch('/jobs.json')
+      },
+      {
+        path:'statistics',
+        element:<Statistics></Statistics>
+      },
+      {
+        path:'blogs',
+        element:<Blogs></Blogs>
+      },
+      {
+        path:'*',
+        element: <ErrorPage></ErrorPage>
       }
     ]
   }

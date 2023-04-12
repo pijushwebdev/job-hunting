@@ -1,7 +1,7 @@
 {
     "jobs": [
         {
-            "id": "1",
+            "id": "job1",
             "company_logo": "../src/assets/companyLogo/Google.png",
             "job_title": "Technical Database Engineer",
             "company_name": "Google LLC",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "2",
+            "id": "job2",
             "company_logo": "../src/assets/companyLogo/netflix.png",
             "job_title": "Senior Product Designer",
             "company_name": "Netflix",
@@ -37,7 +37,7 @@
             }
         },
         {
-            "id": "3",
+            "id": "job3",
             "company_logo": "../src/assets/companyLogo/tesla.png",
             "job_title": "Software Engineer",
             "company_name": "Tesla",
@@ -55,7 +55,7 @@
             }
         },
         {
-            "id": "4",
+            "id": "job4",
             "company_logo": "../src/assets/companyLogo/Google.png",
             "job_title": "Technical Database Engineer",
             "company_name": "Google LLC",
@@ -73,7 +73,7 @@
             }
         },
         {
-            "id": "5",
+            "id": "job5",
             "company_logo": "../src/assets/companyLogo/airbnb.png",
             "job_title": "Senior Software Development Engineer",
             "company_name": "AirBnb LLC",
@@ -91,7 +91,7 @@
             }
         },
         {
-            "id": "6",
+            "id": "job6",
             "company_logo": "../src/assets/companyLogo/facebook.png",
             "job_title": "Product Manager",
             "company_name": "Facebook",
