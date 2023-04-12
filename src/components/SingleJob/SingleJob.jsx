@@ -2,10 +2,11 @@ import React from 'react';
 import './SingleJob.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 const SingleJob = ({ job }) => {
-    const { job_title, company_logo, company_name, fulltime_or_parttime, location, remote_or_onsite, salary } = job;
+    const { job_title, company_logo, company_name, fulltime_or_parttime, location, remote_or_onsite, salary,id } = job;
 
     return (
         <div className='p-10 shadow-md rounded-md single-job'>
@@ -23,7 +24,10 @@ const SingleJob = ({ job }) => {
             </svg>
             </span> <span>Salary: {salary}</span></p>
 
-            <button className='view-details'>View Details</button>
+            <Link to={`/details/${id}`}>
+                <button className='view-details'>View Details</button>
+            </Link>
+            
 
         </div>
     );

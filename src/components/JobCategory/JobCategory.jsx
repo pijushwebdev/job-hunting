@@ -3,9 +3,13 @@ import Category from '../Category/Category';
 import { useLoaderData } from 'react-router-dom';
 
 const JobCategory = () => {
-    const categoriesObj = useLoaderData();
-    const categories = categoriesObj.categories;
+    const [categories, setCategories] = useState([]);
 
+    useEffect(() => {
+        fetch('categories.json')
+        .then(res => res.json())
+        .then(data => setCategories(data.categories))
+    },[])
 
 
     return (

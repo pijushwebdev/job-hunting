@@ -1,0 +1,35 @@
+h2{
+    margin: 30px 0px;
+}
+
+.applyNow{
+    background: linear-gradient(to right,#7E90FE 0%,#9873FF  100%);
+    padding: 19px 28px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    width: 100%;
+    font: 20px;
+    font-weight: 700;
+}
+.applyNow:hover{
+    background: linear-gradient(90deg, #9873FF  100%,#7E90FE 0%);
+}
+
+.job-detail{
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
